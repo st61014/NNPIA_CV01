@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 //@Controller se používá pro označení třídy jako Spring MVC Controller.
 //@RestController anotace je speciální kontroler pro RESTful Web služby, je to kombinace anotací @Controller a @ResponseBody
 @RestController
-@RequestMapping("/api/v1")
 public class HelloController {
     @GetMapping("")
     public String helloWorld(){
